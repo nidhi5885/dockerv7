@@ -1,0 +1,11 @@
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\bin\Debug\netcoreapp2.0\Docker-Try.deps.json
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\bin\Debug\netcoreapp2.0\Docker-Try.runtimeconfig.json
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\bin\Debug\netcoreapp2.0\Docker-Try.runtimeconfig.dev.json
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\bin\Debug\netcoreapp2.0\Docker-Try.dll
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\bin\Debug\netcoreapp2.0\Docker-Try.pdb
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.csprojResolveAssemblyReference.cache
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.csproj.CoreCompileInputs.cache
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.AssemblyInfoInputs.cache
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.AssemblyInfo.cs
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.dll
+C:\Users\Nidhi\Documents\Visual Studio 2017\Projects\Docker-Try\Docker-Try\obj\Debug\netcoreapp2.0\Docker-Try.pdb
