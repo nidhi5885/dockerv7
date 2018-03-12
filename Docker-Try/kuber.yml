@@ -1,14 +1,27 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: dockerdemo
+  name: dockerappdemo
   labels:
     app: web
 spec:
   containers:
-    - name: dockerdemo
+    - name: dockerappdemo
       image: msregistrytest.azurecr.io/nidhi5885/dockerv7:2
       ports:
         - containerPort: 80
   imagePullSecrets:
   - name: mysecret
+  
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: dockerappdemo
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: dockerappdemo
