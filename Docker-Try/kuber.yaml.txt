@@ -1,0 +1,78 @@
+apiVersion: apps/v1beta1
+
+kind: Deployment
+
+metadata:
+
+  name: demoapp
+
+spec:
+
+  replicas: 1
+
+  strategy:
+
+    rollingUpdate:
+
+      maxSurge: 1
+
+      maxUnavailable: 1
+
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: demoapp
+
+    spec:
+
+      containers:
+
+      - name: demoapp
+
+        image: msregistrytest.azurecr.io/nidhi5885/dockerv7
+
+        imagePullPolicy: Always
+
+        ports:
+
+        - containerPort: 80
+
+        resources:
+
+          requests:
+
+            cpu: 250m
+
+          limits:
+
+            cpu: 500m
+            
+      imagePullSecrets:
+     
+      - name: mysecret      
+      
+
+---
+
+apiVersion: v1
+
+kind: Service
+
+metadata:
+
+  name: demoapp
+
+spec:
+
+  type: LoadBalancer
+
+  ports:
+
+  - port: 80
+
+  selector:
+    app: demoapp
