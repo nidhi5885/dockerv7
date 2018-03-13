@@ -1,18 +1,18 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: dockerappdemo2
+  name: dockerappdemo3
   labels:
-    app: dockerappdemo2
+    app: dockerappdemo3
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: dockerappdemo2
+        app: dockerappdemo3
     spec:
       containers:
-      - name: dockerappdemo2
+      - name: dockerappdemo3
         image: msregistrytest.azurecr.io/nidhi5885/dockerv7:2
         ports:
         - containerPort: 80
@@ -24,10 +24,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: dockerappdemo2
+  name: dockerappdemo3
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: dockerappdemo2
+    app: dockerappdemo3
