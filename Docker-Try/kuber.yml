@@ -4,6 +4,7 @@ metadata:
   name: dockerappdemo3
   labels:
     app: dockerappdemo3
+    
 spec:
   replicas: 1
   template:
